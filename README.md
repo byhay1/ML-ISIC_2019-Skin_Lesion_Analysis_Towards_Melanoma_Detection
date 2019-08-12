@@ -63,6 +63,8 @@ print(CATEGORIES[int(prediction[0][0])])
 ## Authors
 
 * **Byron Hayes** - *Initial work* - [BeeSting](https://github.com/byhay1)
+* **Thitti Sirinopwongsagon** 
+* **Nathan Lock**
 
 ## License
 
