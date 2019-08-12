@@ -34,7 +34,7 @@ if __name__ == '__main__':
     #or however you want to run the code, jupyter,etc.
 ```
 3) Should get something like this: 
-![Image description](link-to-image)
+![ISIC_model_as_of_10082019](https://raw.githubusercontent.com/byhay1/ML-ISIC_2019-Skin_Lesion_Analysis_Towards_Melanoma_Detection/master/screenshots-ISIC/Screenshot%20from%202019-08-11%2023-55-29.png)
 
 ## Running the tests
 
