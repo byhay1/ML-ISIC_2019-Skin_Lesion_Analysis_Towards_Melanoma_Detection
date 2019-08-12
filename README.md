@@ -39,7 +39,7 @@ if __name__ == '__main__':
 ## Running the tests
 
 If you want to test an outside image, use the following: 
-'''
+```
 def preparation(fpath): 
     IMG_SIZE = 100
     img_ary = cv2.imread(fpath, cv2.IMREAD_GRAYSCALE)
@@ -51,7 +51,7 @@ model = tf.keras.models.load_model("MODEL-NAME.model")
 
 prediction = model.predict([preparation(IMAGE.jpg)])
 print(CATEGORIES[int(prediction[0][0])])
-'''
+```
 
 ## Built With
 
