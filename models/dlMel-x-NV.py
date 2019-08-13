@@ -7,7 +7,7 @@ Created on Thu Jul 18 22:25:11 2019
 """
 
 # Keras/TensorFlow Convolutional Neural Network
-# Melanoma Detector
+# Melanoma vs Melanocytic nevus Detector
 #
 #---------------------
 import numpy as np
