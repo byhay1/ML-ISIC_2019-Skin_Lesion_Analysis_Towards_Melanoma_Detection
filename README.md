@@ -6,7 +6,7 @@ Skin cancer is the most common cancer globally, with melanoma being the most dea
 ## Getting Started
 
 The dataset given was extremely raw and based on other models that I've created I knew that I first needed to separate the images based on the ISIC_2019_Training_GroundTruth.csv. 
-One needs to separate the images by Melanoma, Melanocytic nevus, Basal cell carcinoma, Actinic keratosis, Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis), Dermatofibroma, Vascular lesion, Squamous cell carcinoma, None of the others; however, the ground truth did not specify the differences in Melanoma so my classification was binary (subject to be updated based-9)
+One needs to separate the images by Melanoma, Melanocytic nevus, Basal cell carcinoma, Actinic keratosis, Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis), Dermatofibroma, Vascular lesion, Squamous cell carcinoma, None of the others; however, I overlooked the groundtruth csv and originally modeled Melanoma against Melanocytic Nevus so my classification was binary, I am working on a model to include all 9 classifications. 
 
 ### Prerequisites
 
