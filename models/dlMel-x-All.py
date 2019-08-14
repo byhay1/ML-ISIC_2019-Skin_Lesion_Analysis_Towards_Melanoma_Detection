@@ -140,7 +140,7 @@ model.compile(loss="sparse_categorical_crossentropy",
               metrics=['accuracy'])
 
 #train the model; to see training in terminal type: "tensorboard --logdir=logs/"
-model.fit(X, y, batch_size=32, epochs = 1, validation_split=0.1, callbacks=[tensorboard])
+model.fit(X, y, batch_size=32, epochs = 100, validation_split=0.1, callbacks=[tensorboard])
 
 #-------------LOSS/ACCURACY-------------#
 
