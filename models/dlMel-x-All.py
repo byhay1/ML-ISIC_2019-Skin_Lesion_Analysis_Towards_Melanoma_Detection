@@ -38,7 +38,7 @@ tensorboard = TensorBoard(log_dir=f'logs/{NAME}')
 
 # define your data path and categories.
 DATADIR = "/home/beehive/Documents/ML-ISIC_Melanoma/Cancer_Training_Images"
-CATEGORIES = ["mel_images", "nv_images", "bcc_images", "ak_images", "bkl_images", "df_images", "vasc_images", "scc_images", "unk_images", ]
+CATEGORIES = ["mel_images", "nv_images", "bcc_images", "ak_images", "bkl_images", "df_images", "vasc_images", "scc_images"]
 
 # test - define your normalized image size
 IMG_SIZE = 100
@@ -121,7 +121,7 @@ model.add(Activation('relu'))
 model.add(Dropout(0.5))
 
 #output layer, final activation
-model.add(Dense(9))
+model.add(Dense(8))
 model.add(Activation('softmax'))
 
 
